@@ -1,6 +1,6 @@
 # Fahrenheit to Celsius converter
 def f_to_c(temperature):
-    celsius = (5 / 9 * (int(temperature)) - 32)
+    celsius = (5 / 9 * ((int(temperature)) - 32))
     return(int(celsius))
     
 def c_to_f(temperature):
