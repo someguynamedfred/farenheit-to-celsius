@@ -1,15 +1,12 @@
 # Fahrenheit to Celsius converter
 def f_to_c(farenheit):
-    celsius = (5/9*(int(farenheit))-32)
-    return(celsius)
+    celsius = (5 / 9 * (int(farenheit)) - 32)
+    return(int(celsius))
 
-farenheit=input("What is the f? ")
+farenheit = input("What is the f? ")
+#celsius = (5/9*(int(farenheit))-32)
+print("That converts to " + str(f_to_c(farenheit)) + " degrees Celsius.")
 
-#I want this in the function above but the function isn't working
-celsius = (5/9*(int(farenheit))-32)
 
-#this should print the function
-print(int(celsius))
-
-#this isn't working
-print(f_to_c(celsius))
+loop == False
+while loop = False
