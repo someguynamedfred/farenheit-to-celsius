@@ -13,6 +13,6 @@ def c_to_f(temperature):
 
 temperature, farenheit_or_celsius = input("What is the temperature number and unit you want to convert from? (eg. 150 C) ") .split()
 if farenheit_or_celsius == "c":
-    print(c_to_f(temperature))
+    print(str(temperature) + " degrees Celsius is equal to " + str(c_to_f(temperature)) + " degrees Farenheit.")
 if farenheit_or_celsius == "f":
-    print(f_to_c(temperature))
+    print(str(temperature) + " degrees Farenheit is equal to " + str(f_to_c(temperature)) + " degrees Celsius.")
